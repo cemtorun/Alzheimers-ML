@@ -4,6 +4,7 @@
 
 import os
 import nltk
+import data_process as dp
 import argparse
 import numpy as np
 import pandas as pd
@@ -57,7 +58,7 @@ def get_tag_info(input):
                                     'count_pauses': 5, 'count_unintelligible': 6, 'count_repetitions': 7,
                                     'ttr': 8, 'R': 9, 'ARI': 10, 'CLI': 11}
     
-    feature_set = []
+    feature_set = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     feature_set[5] = input[1]
     feature_set[6] = input[2]
     feature_set[7] = input[4]
@@ -153,8 +154,7 @@ def get_tag_info(input):
                 elif phrase_type[index_t].label() == 'VGP':
                     VGP_count = VGP_count + 1
         feature_set[features['NP_count']] = NP_count
-        feature_set[features['VP_count']] = VP_count 
-        feature_set[features['VGP_count']] = VGP_count                   
+        feature_set[features['VP_count']] = VP_count                  
         # ------- TTR type-to-token ratio ------- 
         numtokens = len(text)
         freq_token_type = Counter(text)  # or len(set(text)) # text_root
