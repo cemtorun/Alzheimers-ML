@@ -9,7 +9,6 @@ steps if they are at risk of a neurodegenerative disorder.
 
 Design
 ------------------
-A. General Design
 Alexa receives input from the user in the form of audio, sends the audio to the bucket, which
 sends the audio to a transcriber that provides text and other features such as time stamps and
 pace of speech. The transcription occurs and is passed to a machine learning algorithm, written 
