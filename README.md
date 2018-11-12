@@ -1,5 +1,3 @@
-###README
-
 Motivation
 ------------------
 The impacts of Alzheimer's disease and dementia can be delayed and mitigated with early detection. 
