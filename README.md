@@ -1,3 +1,4 @@
+
 Motivation
 ------------------
 The impacts of Alzheimer's disease and dementia can be delayed and mitigated with early detection. 
@@ -16,7 +17,9 @@ in Python, within the gateway. The output is a prediction of whether the user, t
 exhibits early signs of dementia. The models and training data were taken from a github repository:
 https://github.com/chirag126/Automatic_Alzheimer_Detection. 
 
-B. Machine Learning Design
+
+
+Machine Learning Design
 
 File list
 ------------------
