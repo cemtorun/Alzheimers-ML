@@ -18,9 +18,6 @@ exhibits early signs of dementia. The models and training data were taken from a
 https://github.com/chirag126/Automatic_Alzheimer_Detection. 
 
 
-
-Machine Learning Design
-
 File list
 ------------------
 main.py                File containing the main method, executes prediction
