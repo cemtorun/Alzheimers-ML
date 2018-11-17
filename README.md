@@ -45,6 +45,7 @@ The natural language toolkit (nlkt) from Python was used to extract grammatical 
 transcribed speech. The toolkit counts the number of verbs, the number of nouns, and the word-to-sentence
 ratio in transcribed sentences, which are inputs into the linear discriminant analysis. 
 
+This project was done for Hack Princeton and won Best Health Hack along with Best Use of ML
 
 
 
