@@ -26,12 +26,12 @@ model.py               Tests machine learning methods and deploys linear discrim
 feature_set_dem.csv    Training data from subjects with and without dementia and extracted features
 
 
-1. Inputs:
+1. Inputs
 
 The program takes a JSON file produced by an Amazon Web Services (AWS) voice transcription,
 parses it, and passes selected attributes through a machine learning algorithm. 
 
-2. Machine Leaning Methods:
+2. Machine Leaning Methods
 
 The machine learning model used for this program is based on code from GitHub by chirag126.
 Features including the number of pauses, number of repeated words, and number of unintelligible
@@ -42,13 +42,13 @@ In particular, they lack MMSE test results and demographic data such as age. Our
 highest accuracy with linear discriminant analysis (LDA), which yields a 70% accuracy rate 
 on training data. 
 
-3. Natural language Processing (NLP):
+3. Natural language Processing (NLP)
 
 The natural language toolkit (nlkt) from Python was used to extract grammatical features from
 transcribed speech. The toolkit counts the number of verbs, the number of nouns, and the word-to-sentence
 ratio in transcribed sentences, which are inputs into the linear discriminant analysis. 
 
-This project was done for Hack Princeton and won Best Health Hack along with Best Use of ML
+This project was done for Hack Princeton and won Best Health Hack along with Best Use of Machine Learning out of 600 competitors.
 
 
 
