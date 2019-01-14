@@ -22,7 +22,7 @@ File list
 main.py                File containing the main method, executes prediction
 data_process.py        Parses a JSON file with transcribedtext
 feature_extract.py     Extracts features from raw text 
-model.py               Tests machine learning methods and deploys linear discriminant analysis
+model.py               Tests machine learning methods and deploys linear discriminant analysis (LDA)
 feature_set_dem.csv    Training data from subjects with and without dementia and extracted features
 
 
