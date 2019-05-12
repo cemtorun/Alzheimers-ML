@@ -1,11 +1,10 @@
-
 Motivation
 ------------------
 The impacts of Alzheimer's disease and dementia can be delayed and mitigated with early detection. 
 However, there is often no method of detecting neurodegenerative diseases early, as existing
 methods are generally intrusive. This project leverages natural language processing (NLP) technology,
 present in products such as Alexa, to assess users' speech and alert them to take proactive
-steps if they are at risk of a neurodegenerative disorder. 
+steps if they are at risk of a potential neurodegenerative disorder. 
 
 Design
 ------------------
@@ -48,7 +47,7 @@ The natural language toolkit (nlkt) from Python was used to extract grammatical 
 transcribed speech. The toolkit counts the number of verbs, the number of nouns, and the word-to-sentence
 ratio in transcribed sentences, which are inputs into the linear discriminant analysis. 
 
-This project was done for Hack Princeton and won Best Health Hack along with Best Use of Machine Learning out of 600 competitors.
+### This project was done for Hack Princeton and won Best Health Hack along with Best Use of Machine Learning out of 600 competitors.
 
 
 
